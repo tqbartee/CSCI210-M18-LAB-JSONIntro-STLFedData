@@ -1,0 +1,3 @@
+Do not move, rename, or automatically package any Java source files during workspace initialization. Leave the root directory structure exactly as imported.
+When inspecting sample files in datafiles/FREDData-JSON, read at most the first 35 lines (do not read the entire JSON file into context).
+Verify compilation using './gradlew compileJava' only. Do not run './gradlew run' or launch the Swing GUI, as it blocks on a modal dialog.
